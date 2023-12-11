@@ -14,9 +14,9 @@ import numpy as np
 
 df1 = pd.read_csv('Datasets/dataset-1.csv')
 
-df2 = pd.read_csv('/content/dataset-2.csv')
+df2 = pd.read_csv('Datasets/dataset-2.csv')
 
-df3 = pd.read_csv('/content/dataset-3.csv')
+df3 = pd.read_csv('Datasets/dataset-3.csv')
 
 df1
 
@@ -45,7 +45,7 @@ def generate_car_matrix(file_path):
     return car_matrix
 
 # Example usage:
-file_path = '/content/dataset-1.csv'
+file_path = 'Datasets/dataset-1.csv'
 result_matrix = generate_car_matrix(file_path)
 print(result_matrix)
 
@@ -75,7 +75,7 @@ def get_type_count(file_path):
     return type_counts
 
 # Example usage:
-file_path = '/content/dataset-1.csv'
+file_path = 'Datasets/dataset-1.csv'
 result = get_type_count(file_path)
 print(result)
 
@@ -99,7 +99,7 @@ def get_bus_indexes(file_path):
     return bus_indexes
 
 # Example usage:
-file_path = '/content/dataset-1.csv'
+file_path = 'Datasets/dataset-1.csv'
 result = get_bus_indexes(file_path)
 print(result)
 
@@ -120,7 +120,7 @@ def filter_routes(dataframe):
     return sorted_routes
 
 # Example usage:
-file_path = '/content/dataset-1.csv'
+file_path = 'Datasets/dataset-1.csv'
 df = pd.read_csv(file_path)
 result = filter_routes(df)
 print(result)
