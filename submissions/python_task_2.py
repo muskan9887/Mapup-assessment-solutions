@@ -43,7 +43,7 @@ def calculate_distance_matrix(file_path):
 
 # Example usage:
 # Assuming 'path/to/dataset-3.csv' is the path to your dataset-3.csv file
-file_path = '/content/dataset-3.csv'
+file_path = 'Datasets/dataset-3.csv'
 distance_matrix_result = calculate_distance_matrix(file_path)
 print(distance_matrix_result)
 
@@ -69,7 +69,7 @@ def generate_car_matrix(file_path):
     return car_matrix
 
 # Example usage:
-file_path = '/content/dataset-1.csv'
+file_path = 'Datasets/dataset-1.csv'
 result_matrix = generate_car_matrix(file_path)
 print(result_matrix)
 
